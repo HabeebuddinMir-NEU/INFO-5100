@@ -13,22 +13,22 @@ The two use cases are:
 
 In this exercise, you are to define a user’s class with the following attributes.
 
-First Name,
+1. First Name,
 Last Name
 
-DOB,
+2. DOB,
 Age
 
-Telephone number,
+3. Telephone number,
 Email
 
-Street Line 1,
+4. Street Line 1,
 Street Line 2,
 City,
 Country,
 Affiliation,
 
-Major,
+5. Major,
 Career,
 Degree 1,
 Degree 1 Start,
@@ -37,11 +37,12 @@ Degree 2,
 Degree 2 Start,
 Degree 2 End,
 
-Photo
+6. Photo
  
+
 
 Requirement:
 
-The photo image of the user is required.
+1. The photo image of the user is required.
 
-Upload your assignment onto GitHub. Submission on canvas is not acceptable.
+2. Upload your assignment onto GitHub. Submission on canvas is not acceptable.
