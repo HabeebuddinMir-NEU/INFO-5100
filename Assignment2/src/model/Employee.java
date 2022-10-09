@@ -4,24 +4,25 @@
  */
 package model;
 
-import java.io.File;
-import java.util.Date;
+import javax.swing.ImageIcon;
+
 /**
  *
- * @author HABEEB
+ * @author Habeeb
  */
 public class Employee {
+
     private String name;
-    private int employeeId;
+    private long employeeID;
     private int age;
     private String gender;
-    private Date startDate;
+    private String startDate;
     private String level;
     private String teamInfo;
     private String positionTitle;
-    private int cellPhoneNo;
-    private String emailAddress;
-    private File photo;
+    private String email;
+    private ImageIcon pic;
+    private long phoneNumber;
 
     public String getName() {
         return name;
@@ -31,12 +32,12 @@ public class Employee {
         this.name = name;
     }
 
-    public int getEmployeeId() {
-        return employeeId;
+    public long getEmployeeID() {
+        return employeeID;
     }
 
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
+    public void setEmployeeID(long employeeID) {
+        this.employeeID = employeeID;
     }
 
     public int getAge() {
@@ -55,11 +56,11 @@ public class Employee {
         this.gender = gender;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
@@ -87,32 +88,34 @@ public class Employee {
         this.positionTitle = positionTitle;
     }
 
-    public int getCellPhoneNo() {
-        return cellPhoneNo;
+    public String getEmail() {
+        return email;
     }
 
-    public void setCellPhoneNo(int cellPhoneNo) {
-        this.cellPhoneNo = cellPhoneNo;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getEmailAddress() {
-        return emailAddress;
+    public ImageIcon getPic() {
+        return pic;
     }
 
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
+    public void setPic(ImageIcon pic) {
+        this.pic = pic;
     }
 
-    public File getPhoto() {
-        return photo;
+    public long getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhoto(File photo) {
-        this.photo = photo;
+    public void setPhoneNumber(long phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
-    
+
+ 
+
     @Override
     public String toString() {
-        return name;
+        return this.name;
     }
 }
