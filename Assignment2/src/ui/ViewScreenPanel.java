@@ -6,7 +6,6 @@ package ui;
 
 import java.awt.Image;
 import java.awt.image.BufferedImage;
-import java.util.Date;
 import java.util.regex.Pattern;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
